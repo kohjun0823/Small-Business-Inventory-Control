@@ -1,11 +1,11 @@
 :root{
     --sidebarcolor: #ffffff;
-    --bodycolor: #000;
+    --bodycolor: #a6bdfc;
 }
 
 body{
     height: 100vh;
-    background: #000;
+    background: var(--bodycolor);
 }
 
 .sidebar{
@@ -13,6 +13,6 @@ body{
     top: 0;
     left: 0;
     height: 100%;
-    width: 250px;
+    width: 50px;
     background: var(--sidebarcolor);
 }
